@@ -1,0 +1,25 @@
+AAAAAAAAAAAAAAAAAAAAAAAA
+break *0x401100
+run AAAAAAAAAAAAAAAAAAAAAAAA
+BBBBBBBBBBBBBBBBBBBBBBBB
+
+
+## 1er Mdp rentrer run AAAAAAAAAAAAAAAAAAAAAAAA
+x/24cb $rdi: 0x7fffffffdb80: 6 '\006'        59 ';'  6 '\006'        -64 '\300'      15 '\017'       -86 '\252'      -116 '\214'     -75 '\265'
+0x7fffffffdb88: 57 '9'  121 'y' -48 '\320'      -114 '\216'    49 '1'   -118 '\212'     -13 '\363'      -9 '\367'
+0x7fffffffdb90: 51 '3'  -52 '\314'      41 ')'  44 ','  86 'V' -31 '\341'       -109 '\223'     -120 '\210'
+
+## 2ième Mdp rentrer run BBBBBBBBBBBBBBBBBBBBBBBB
+x/24cb $rdi
+0x7fffffffdb80: 5 '\005'        59 ';'  -16 '\360'      53 '5' 40 '('   -114 '\216'     -113 '\217'     -75 '\265'
+0x7fffffffdb88: 58 ':'  121 'y' 70 'F'  -32 '\340'      -44 '\324'      44 ','  85 'U'  82 'R'
+0x7fffffffdb90: 48 '0'  -52 '\314'      -112 '\220'     105 'i'-84 '\254'       -86 '\252'      50 '2'  42 '*'
+
+
+## Mdp bon
+x/24cb $rsi: 0x7fffffffdb60: 1 '\001'        49 '1'  -13 '\363'      51 '3' 53 '5'   -104 '\230'     -110 '\222'     -102 '\232'
+0x7fffffffdb68: 10 '\n' 56 '8'  98 'b'  -29 '\343'      -60 '\304'      83 'S'  100 'd' 113 'q'
+0x7fffffffdb70: 66 'B'  -109 '\223'     -68 '\274'      88 'X' -116 '\214'      -68 '\274'      7 '\a'  32 ' '
+
+
+MDP, mais 2dn cryptage: FK??{s_nr??,????0??5????
